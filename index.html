@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>"Alvie Kam's Personal Webpage"</title>
+        <meta name="author" content="Alvie Kam">
+        <meta name="description" content="Created for WebDev Decal">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <section class = "about">
+        <div class="intro" style="display:flex; flex-direction:column;">
+            <h1 id="me"> Hi! I'm Alvie, and I'm a student studying Bioengineering @ UC Berkeley. </h1>
+            <h3 class="intro">Currently...</h3>
+            <ul class="intro">
+                <li class="intro">Learning the basics of web development with CSS, HTML, and Javascript </li>
+                <li class="intro">Applying Python to understand biological systems</li>
+                <li class="intro">Designing assays to measure mold inhibition activity of antifungal agents</li>
+                <li class="intro">Teaching kids science!</li>
+                <li class="intro">Training for the Berkeley Half Marathon</li>
+            </ul>
+    
+            <div class="landing">
+                <a href="https://www.linkedin.com/in/alviekam/" class="fa fa-linkedin" target="blank"></a>
+                <a href="https://www.facebook.com/alviekam1/" class="fa fa-facebook" target="blank"></a>
+                <a href="mailto:alkam2@berkeley.edu?" class="fa fa-google" target="blank"></a></li>
+                <a href="https://www.instagram.com/al_kamkam/" class="fa fa-instagram" target="blank"></a>
+            </div>
+        </div>
+        <img class="img" src="casual_headshot.jpg" >
+        
+    </section>
+    <section class="work"></div>
+        <h1 class="proj-header">Research Projects</h1>
+        <div class="project-container proj1">
+            <div class="project-name"><u>Cheese Engineering</u></div>
+            <div class="project-description">
+                <p > Fungal contamination of soft cheeses, such as feta, poses a significant problem for organic 
+                    cheese farms. This results in major economic losses, potential health hazards from fungal 
+                    mycotoxins, and quality reduction due to unnatural odors and flavors. This project focuses 
+                    on inhibiting the growth of Penicillium commune, a common cause of cheese spoilage, on feta 
+                    cheese through recombinant chitinase expression in Lactococcus lactis and exploring its 
+                    industrial applications. My team in iGEM at UC Berkeley is currently working on 
+                    constructing and transforming shuttle vectors containing our chitinase gene of interest 
+                    into L. lactis, refining a secretion signaling system, and developing assays that will 
+                    determine the antifungal activities of our engineered chassis.</p>
+                <p>Find the full, multi-page poster <a target="_blank" 
+                    href="https://drive.google.com/file/d/1FjhSJyZGGrGsrI7gdyPuHZwB0-RLnpDR/view">here</a> </p>
+            </div>
+            
+        </div>
+        <div class="project-container proj2">
+            <div class="project-name"><u>Whole-genome Comparative Analysis of Globally Diverse Chlamydia Trachomatis Strains </u></div>
+            <div class="project-description">
+                <p> This research study with the Dean Lab at UCSF analyzed over 800 publicly available Chlamydia trachomatis (Ct) genomes 
+                    collected from across global sub-continents to identify the Ct lineage-specific biological function
+                    and deduce virulence. For the first time, Ct genomes was curated and assembled using a 
+                    newly-developed nextflow based pipeline called Bactopia. The assembled genomes was used to 
+                    create whole genome phylogenies and identify patterns of recombination and single nucleotide 
+                    polymorphisms (SNPs) across the Ct lineages. Fine-detailed comparative genomics will be performed
+                    to identify genomic strain types and genes involved in genetic variation, driving selection, virulence 
+                    and tissue tropism and their impact on chlamydial pathogenesis. 
+                </p>
+            </div>
+        </div>
+        <div class="project-container proj3">
+            <div class="project-name"><u>Research Project Proposal: Will Cyclic Activation of OSKM Factors Promote Transient Immunogenicity?</u></div>
+            <div class="project-description">    
+                <p> iPSCs hold promising potential for autologous stem cell-based therapies, however, there are drawbacks of iPSCs
+                    to be used for therapeutic purposes, including its causation for teratoma formation and immune rejection. By 
+                    partially reprogramming cells through cyclic activation of OSKM by a tet-inducible system, transient 
+                    immunogenicity, or the ability of cells and/or tissues to provoke an immune response over a short 
+                    period of time, can be studied, and its impact can pave the way for the viability of partially reprogrammed 
+                    cells in clinical applications. </p>
+                <p>Find the full, research project proposal <a target="_blank" 
+                    href="C:\Users\kamal\Downloads\Copy of BioE 115 Research Project Proposal .pdf">here</a> </p>    
+            </div>
+        </div>
+
+    </section>
+    <section style="background-color:#212529">
+        <label> Do you run? </label>
+        <button onclick="alert('Lets run together!')" style="color:black">Yes!</button> <br> 
+        <label for="stravaName"> Let's be friends on Strava!</label> 
+        <input type="text" id="stravaName" style="color:grey" value="Your Strava Account Name">
+        <input type="submit" value="Submit" style="color:black" onclick="return strava();">
+        <p id="valueInput"></p>
+        <script>
+            function strava(){
+                alert("Woo!");
+                return true;
+            }
+        </script>
+    </section>
+</html>
